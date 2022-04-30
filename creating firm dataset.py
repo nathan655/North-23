@@ -7,7 +7,7 @@ Created on Sat Apr 30 12:13:59 2022
 
 #this is a code to dowload data
 import eikon as ek
-ek.set_app_key('39fe94d670f5433897e1cdcedf8fb3fbf7410dee')
+ek.set_app_key('')
 
 index, e = ek.get_data(['.STOXX'], ['TR.IndexConstituentRIC', 'TR.IndexConstituentName','TR.IndexConstituentWeightPercent'])
 
